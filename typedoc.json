@@ -1,0 +1,9 @@
+{
+  "entryPoints": ["src"], // Punto de entrada principal o varios archivos
+  "entryPointStrategy": "expand",
+  "out": "docs", // Carpeta de salida para la documentación
+  "includeVersion": true, // Muestra la versión del proyecto
+  "excludePrivate": true, // Excluye elementos privados de la documentación
+  "excludeProtected": true, // Excluye miembros protegidos
+  "excludeInternal": true // Excluye elementos marcados con @internal
+}
